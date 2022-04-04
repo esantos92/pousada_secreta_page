@@ -1,0 +1,22 @@
+.tituloContainer {
+  background-image: url('./assets/images/img-fundo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+ 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  div {
+    color: #fff;
+    font-size: 28px;
+    background-color: #0a9077b3;
+    border: 1px solid;
+    padding: 0 20px;
+    border-radius: 4px;
+    text-align: center;
+    width: 100%;
+  }
+}

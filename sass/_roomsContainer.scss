@@ -1,0 +1,20 @@
+#roomsContainer {
+  display: flex;
+  justify-content: space-between;
+
+  .quarto {
+    margin-right: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #00836a;
+    color: #3d3d3d;
+
+    img {
+      width: 100%;
+      
+    }
+  }
+
+  .quarto:last-child {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,28 @@
+#header {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  background-color: #fff;
+  border-bottom: 1px solid #d5d5d5;
+  justify-content: space-between;
+
+  a {
+    text-decoration: none;
+    color: #3d3d3d;
+    font-size: 20px;
+  }
+
+  span {
+    color: #6592c9;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .link {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+}

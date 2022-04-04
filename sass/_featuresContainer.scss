@@ -1,0 +1,32 @@
+.featuresContainer {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  
+  .feature {
+    display: flex;
+    width: 45%;
+    margin: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+
+    .featureDescription {
+      display: flex;
+      flex-wrap: wrap;
+      width: 400px;
+      justify-content: space-between;
+    }
+
+    img {
+      width: 100px;
+      height: 113px;
+      object-fit: cover;
+      margin-left: 10px;
+    }
+  }
+
+  
+}
