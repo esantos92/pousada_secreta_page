@@ -1,10 +1,10 @@
 #header {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   padding: 10px;
-  display: flex;
   background-color: #fff;
   border-bottom: 1px solid #d5d5d5;
-  justify-content: space-between;
 }
 #header a {
   text-decoration: none;
@@ -63,6 +63,8 @@
   padding-bottom: 20px;
   border-bottom: 2px solid #00836a;
   color: #3d3d3d;
+  text-align: center;
+  text-decoration: none;
 }
 #roomsContainer .quarto img {
   width: 100%;
@@ -102,25 +104,25 @@ iframe {
 }
 
 .featuresContainer {
+  display: flex;
+  justify-content: space-between;
   max-width: 1080px;
   margin: 0 auto;
-  display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   padding-bottom: 50px;
 }
 .featuresContainer .feature {
   display: flex;
+  justify-content: space-between;
   width: 45%;
   margin: 0 10px;
   align-items: center;
-  justify-content: space-between;
 }
 .featuresContainer .feature .featureDescription {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   width: 400px;
-  justify-content: space-between;
 }
 .featuresContainer .feature img {
   width: 100px;
@@ -134,8 +136,8 @@ iframe {
 }
 #footer .footerContainer {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 #footer .footerContainer h4 {
   font-size: 22px;
@@ -158,7 +160,7 @@ iframe {
 #footer .footerContainer .copyRight {
   text-align: center;
   padding: 20px;
-  border-top: 1px solid #3b7863;
+  border-top: 1px solid rgba(10, 144, 119, 0.7019607843);
   color: #fff;
   font-weight: 600;
   width: 100%;

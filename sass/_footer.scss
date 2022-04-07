@@ -1,22 +1,23 @@
+@import 'partials';
+
 #footer {
-  background-color: #49997d;
+  background-color: $light-green;
 
   .footerContainer {
-    display: flex;
+    @include display-config;
     flex-wrap: wrap;
-    justify-content: space-between;
 
     h4 {
       font-size: 22px;
       align-items: center;
-      color: #fff;
+      color: $white;
     }
 
     a {
       width: 23%;
       display: flex;
       align-items: center;
-      color: #fff;
+      color: $white;
       text-decoration: none;
       margin-right: 10px;
 
@@ -30,8 +31,8 @@
     .copyRight {
       text-align: center;
       padding: 20px;
-      border-top: 1px solid #3b7863;
-      color: #fff;
+      border-top: 1px solid $dark-green;
+      color: $white;
       font-weight: 600;
       width: 100%;
     }

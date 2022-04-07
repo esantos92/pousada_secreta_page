@@ -1,16 +1,18 @@
+@import 'partials';
+
 #roomsContainer {
-  display: flex;
-  justify-content: space-between;
+  @include display-config;
 
   .quarto {
     margin-right: 30px;
     padding-bottom: 20px;
-    border-bottom: 2px solid #00836a;
-    color: #3d3d3d;
+    border-bottom: 2px solid $medium-green;
+    color: $dark-gray;
+    text-align: center;
+    text-decoration: none;
 
     img {
-      width: 100%;
-      
+      width: 100%;      
     }
   }
 
